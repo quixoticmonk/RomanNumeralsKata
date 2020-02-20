@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e27b9a8e-0fe3-4c70-9f2a-a4f04e0a9af1" name="Default Changelist" comment="" />
+    <list default="true" id="e27b9a8e-0fe3-4c70-9f2a-a4f04e0a9af1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oblivion/RomanNumeralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oblivion/RomanNumeralTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +48,23 @@
       <recent name="com.oblivion" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RomanNumeralTest.shouldReturn10forX">
+    <configuration name="RomanNumeralTest.shouldReturn10forX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumeralsKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oblivion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oblivion" />
+      <option name="MAIN_CLASS_NAME" value="com.oblivion.RomanNumeralTest" />
+      <option name="METHOD_NAME" value="shouldReturn10forX" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanNumeralTest.shouldReturn5forV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumeralsKata" />
       <extension name="coverage">
@@ -65,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanNumeralTest.shouldReturn10forX" />
         <item itemvalue="JUnit.RomanNumeralTest.shouldReturn5forV" />
       </list>
     </recent_temporary>
@@ -88,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582235364381</updated>
-      <workItem from="1582235368960" duration="1328000" />
+      <workItem from="1582235368960" duration="1443000" />
     </task>
     <servers />
   </component>
