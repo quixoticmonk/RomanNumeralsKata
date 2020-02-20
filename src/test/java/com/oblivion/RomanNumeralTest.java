@@ -28,7 +28,7 @@ public class RomanNumeralTest {
     }
 
     @Test
-    @DisplayName("Should Return 5 for V")
+    @DisplayName("Should Return 10 for X")
     void shouldReturn10forX(){
         RomanNumerals romanNumerals = new RomanNumerals();
         assertThat(romanNumerals.getNumeralValue("X"),is(equalTo(10)));
