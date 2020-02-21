@@ -30,7 +30,8 @@ public class RomanNumeralTest {
             "L,50",
             "C,100",
             "D,500",
-            "M,1000"
+            "M,1000",
+            "F,1000"
     })
     void shouldReturn10forX(String romanNumeral,int number){
         RomanNumerals romanNumerals = new RomanNumerals();
