@@ -27,7 +27,9 @@ public class RomanNumeralTest {
             "D,500",
             "M,1000",
             "MMVI,2006",
-            "MCMXLIV,1944"
+            "MCMXLIV,1944",
+            "CCLVI,256",
+            "XIV,14"
     })
     void shouldReturn10forX(String romanNumeral,int number){
         RomanNumerals romanNumerals = new RomanNumerals();
