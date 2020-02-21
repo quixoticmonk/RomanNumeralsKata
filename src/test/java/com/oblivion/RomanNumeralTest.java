@@ -1,6 +1,7 @@
 package com.oblivion;
 
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -11,14 +12,9 @@ import static org.hamcrest.core.IsEqual.equalTo;
 public class RomanNumeralTest {
 
 /*
-    Symbol	Value
-    I	1
-    V	5
-    X	10
-    L	50
-    C	100
-    D	500
-    M	1000*/
+    Roman Number	Computation	Value	Comment
+    MMVI	1000 + 1000 + 5 + 1	2006	only addition
+    MCMXLIV	1000 + (1000 - 100) + (50 - 10) + (5 - 1)	1944	addition and substraction*/
 
 
     @DisplayName("Roman Numeral Conversion")
@@ -30,11 +26,16 @@ public class RomanNumeralTest {
             "L,50",
             "C,100",
             "D,500",
-            "M,1000",
-            "F,1000"
+            "M,1000"
     })
     void shouldReturn10forX(String romanNumeral,int number){
         RomanNumerals romanNumerals = new RomanNumerals();
         assertThat(romanNumerals.getNumeralValue(romanNumeral),is(equalTo(number)));
+    }
+
+    @Test
+    void shouldReturn2006ForMMVI(){
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertThat(romanNumerals.getNumeralValue("MMVI"),is(equalTo(2006)));
     }
 }
