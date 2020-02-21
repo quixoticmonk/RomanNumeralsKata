@@ -38,4 +38,10 @@ public class RomanNumeralTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertThat(romanNumerals.getNumeralValue("MMVI"),is(equalTo(2006)));
     }
+
+    @Test
+    void shouldReturn2006ForMCMXLIV(){
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertThat(romanNumerals.getNumeralValue("MCMXLIV"),is(equalTo(1944)));
+    }
 }
