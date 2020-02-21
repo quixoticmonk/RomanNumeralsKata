@@ -17,12 +17,16 @@ public class RomanNumerals {
     };
 
     public int getNumeralValue(String inputNumeral) {
+        char[] inputNumeralArray = inputNumeral.toCharArray();
         int returnNumeral =0;
-        for(Map.Entry<String,Integer> entry :romanNumeralsMap.entrySet()){
-            if(inputNumeral.equals(entry.getKey())){
-                returnNumeral = entry.getValue();
+        for(int i=0;i<inputNumeralArray.length;i++){
+                for(Map.Entry<String,Integer> entry :romanNumeralsMap.entrySet()){
+                    if(entry.getKey().equalsIgnoreCase(String.valueOf(inputNumeralArray[i]))) returnNumeral += entry.getValue();
+                }
             }
-        }
+
+
+
         return returnNumeral;
 
     }
