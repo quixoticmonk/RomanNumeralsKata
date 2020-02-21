@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e27b9a8e-0fe3-4c70-9f2a-a4f04e0a9af1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oblivion/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oblivion/RomanNumerals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oblivion/RomanNumeralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oblivion/RomanNumeralTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/oblivion/RomanNumeralTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oblivion/RomanNumeralTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +46,32 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.oblivion" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RomanNumeralTest.shouldReturn10forX">
+  <component name="RunManager" selected="JUnit.RomanNumeralTest.shouldReturn10forX (1)">
+    <configuration name="RomanNumeralTest.shouldReturn10forX (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumeralsKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oblivion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oblivion" />
+      <option name="MAIN_CLASS_NAME" value="com.oblivion.RomanNumeralTest" />
+      <option name="METHOD_NAME" value="shouldReturn10forX(java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanNumeralTest.shouldReturn10forX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumeralsKata" />
       <extension name="coverage">
@@ -83,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanNumeralTest.shouldReturn10forX (1)" />
         <item itemvalue="JUnit.RomanNumeralTest.shouldReturn10forX" />
         <item itemvalue="JUnit.RomanNumeralTest.shouldReturn5forV" />
       </list>
@@ -107,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582235364381</updated>
-      <workItem from="1582235368960" duration="1487000" />
+      <workItem from="1582235368960" duration="4770000" />
     </task>
     <servers />
   </component>
@@ -115,21 +139,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1860" height="344" key="GridCell.Tab.0.bottom" timestamp="1582236865939">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1582298142232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582236865939" />
-    <state width="1860" height="344" key="GridCell.Tab.0.center" timestamp="1582236865938">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582298142232" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1582298142232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582236865938" />
-    <state width="1860" height="344" key="GridCell.Tab.0.left" timestamp="1582236865937">
+    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582298142232" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1582298142231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582236865937" />
-    <state width="1860" height="344" key="GridCell.Tab.0.right" timestamp="1582236865939">
+    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582298142231" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1582298142232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582236865938" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582298142232" />
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom" timestamp="1582236879299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582236879299" />
+    <state width="1860" height="344" key="GridCell.Tab.1.center" timestamp="1582236879299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582236879299" />
+    <state width="1860" height="344" key="GridCell.Tab.1.left" timestamp="1582236879299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582236879299" />
+    <state width="1860" height="344" key="GridCell.Tab.1.right" timestamp="1582236879299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582236879299" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1582298135320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1582298135320" />
   </component>
 </project>
