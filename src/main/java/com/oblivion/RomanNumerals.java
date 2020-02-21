@@ -20,17 +20,22 @@ public class RomanNumerals {
         char[] inputNumeralArray = inputNumeral.toCharArray();
         int returnNumeral = 0;
         if (inputNumeralArray.length > 1) {
-            for (int i = inputNumeralArray.length - 1; i >= 1; i--) {
-                if (getValueFromNumeral(inputNumeralArray, i) > getValueFromNumeral(inputNumeralArray, i - 1)) {
-                    returnNumeral += getValueFromNumeral(inputNumeralArray, i)-getValueFromNumeral(inputNumeralArray, i-1);
-                    i--;
-                } else {
-                    returnNumeral += getValueFromNumeral(inputNumeralArray, i);
-                }
-            }
+            returnNumeral = calculateNumeralForLengthMoreThanOne(inputNumeralArray, returnNumeral);
         }
         returnNumeral += getValueFromNumeral(inputNumeralArray, 0);
 
+        return returnNumeral;
+    }
+
+    private int calculateNumeralForLengthMoreThanOne(char[] inputNumeralArray, int returnNumeral) {
+        for (int index = inputNumeralArray.length - 1; index >= 1; index--) {
+            if (getValueFromNumeral(inputNumeralArray, index) > getValueFromNumeral(inputNumeralArray, index - 1)) {
+                returnNumeral += getValueFromNumeral(inputNumeralArray, index)-getValueFromNumeral(inputNumeralArray, index-1);
+                index--;
+            } else {
+                returnNumeral += getValueFromNumeral(inputNumeralArray, index);
+            }
+        }
         return returnNumeral;
     }
 
