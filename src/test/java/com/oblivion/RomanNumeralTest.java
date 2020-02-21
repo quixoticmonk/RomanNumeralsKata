@@ -40,7 +40,7 @@ public class RomanNumeralTest {
     }
 
     @Test
-    void shouldReturn2006ForMCMXLIV(){
+    void shouldReturn1944ForMCMXLIV(){
         RomanNumerals romanNumerals = new RomanNumerals();
         assertThat(romanNumerals.getNumeralValue("MCMXLIV"),is(equalTo(1944)));
     }
