@@ -1,7 +1,6 @@
 package com.oblivion;
 
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -26,22 +25,13 @@ public class RomanNumeralTest {
             "L,50",
             "C,100",
             "D,500",
-            "M,1000"
+            "M,1000",
+            "MMVI,2006",
+            "MCMXLIV,1944"
     })
     void shouldReturn10forX(String romanNumeral,int number){
         RomanNumerals romanNumerals = new RomanNumerals();
         assertThat(romanNumerals.getNumeralValue(romanNumeral),is(equalTo(number)));
     }
 
-    @Test
-    void shouldReturn2006ForMMVI(){
-        RomanNumerals romanNumerals = new RomanNumerals();
-        assertThat(romanNumerals.getNumeralValue("MMVI"),is(equalTo(2006)));
-    }
-
-    @Test
-    void shouldReturn1944ForMCMXLIV(){
-        RomanNumerals romanNumerals = new RomanNumerals();
-        assertThat(romanNumerals.getNumeralValue("MCMXLIV"),is(equalTo(1944)));
-    }
 }
